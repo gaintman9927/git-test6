@@ -1,0 +1,23 @@
+{
+  "id": 6032416,
+  "name": "branch ruleset1",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "gaintman9927/git-test6",
+  "enforcement": "disabled",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    }
+  ],
+  "bypass_actors": []
+}
